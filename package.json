@@ -1,0 +1,25 @@
+{
+  "name": "dua-isometric-remotion-preview",
+  "version": "1.0.0",
+  "description": "SRT-timed Bengali motion graphics preview with an isometric spring-animated journey chart",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "studio": "remotion studio src/index.ts",
+    "render": "remotion render src/index.ts Main out/video.mp4 --codec h264 --crf 17",
+    "sfx": "node generate-sfx.js",
+    "typecheck": "tsc --noEmit"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@fontsource/hind-siliguri": "^5.3.0",
+    "@remotion/cli": "^4.0.539",
+    "@types/react": "^19.3.0",
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1",
+    "remotion": "^4.0.539",
+    "typescript": "^7.0.2"
+  }
+}
